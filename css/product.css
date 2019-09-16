@@ -1,0 +1,126 @@
+
+ .my-thumbnail{
+	border: none;
+	padding: 0px;
+} 
+.con-tit{
+	margin: 50px 0;
+}
+.con-tit span{
+	margin: 0 15px;
+	font-size: 16px;
+}
+.con-tit .span{
+	color: #00a971;
+}
+.box-span{
+	width: 472px;
+	margin: 0 auto;
+}
+ @media (max-width: 768px){
+	.box-span{
+		display: none;
+	}
+	.content-box{
+		margin-top: -50px;
+	}
+} 
+.content-box .title{
+	font-size: 22px;
+	padding-left: 20px; 
+	padding-bottom: 10px;
+	position: relative;
+	border-bottom: 1px solid #e1e1e1;
+} 
+
+.content-box .title:before{
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 18px;
+	position: absolute;
+	background: #00a971;
+	left: 0px;
+	top: 8px;
+}
+.my-h3{
+	font-size: 16px;
+	position: relative;
+}
+.my-icon-jiang{
+	position: absolute;
+	top: -10px;
+	right: 0px;
+	font-size: 22px;
+}
+ .my-icon-jiang:after{
+	content: "";
+	position: absolute;
+	right: 28px;
+	bottom: -5px;
+	width: 1px;
+	height: 20px;
+	background: #333;
+	transition: 1s;
+} 
+.content-box .cap{
+	color: #666;
+}
+.more{
+	font-style: normal;
+	font-size: 12px;
+	display: inline-block;
+	transform: translateX(10px);
+	/* margin-left: 30px; */
+	 opacity: 0; 
+	transition: 0.65s;
+	color: #00a971;
+}
+.my-thumbnail:hover .more{
+ 	opacity: 1;
+ 	/*// margin-left: 60px;*/
+ 	transform: translateX(30px);
+}
+.my-thumbnail:hover .my-icon-jiang:after{
+	height: 0px;
+}
+.my-thumbnail:hover:after{
+	width: 100%;
+}
+.my-thumbnail:hover .my-icon-jiang{
+	color: #00a971;
+}
+.my-thumbnail:after{
+ 	content: "";
+	display: inline-block;
+	height: 1px;
+	width: 0;
+	background-color: #00a971;
+	transition: 0.65s;
+} 
+.my-thumbnail img{
+	transition: 0.65s;
+}
+.my-thumbnail:hover img{
+	transform: translate(10px,-10px) translateZ(5px);
+	box-shadow: 0 0 16px #b1b1b1;
+	border-radius: 4px;
+}
+@media (max-width: 768px) {
+	.my-h3 i{
+		display: none;
+	}
+}
+.end ul{
+	overflow: hidden;
+	border: 1px solid #ccc;
+	width: 187px;
+	margin: 0px auto 60px;
+}
+.end ul li+li{
+	border-left: 1px solid #ccc;
+}
+.end ul li{
+	float: left;
+	padding: 5px 10px;
+}

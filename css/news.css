@@ -1,0 +1,142 @@
+ .my-thumbnail{
+	border: none;
+	padding: 0px;
+} 
+.con-tit{
+	margin: 50px 0;
+}
+.con-tit span{
+	margin: 0 15px;
+	font-size: 16px;
+}
+.con-tit .span{
+	color: #00a971;
+}
+.box-tit{
+	width: 472px;
+	margin: 0 auto;
+}
+@media (max-width: 1200px){
+	.box-tit{
+		width: 260px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 996px){
+	.box-tit{
+		width: 270px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 768px){
+	.box-tit{
+		width: 260px;
+		margin: 0 auto;
+	}
+}
+.cont-tit-line{
+	border-bottom: 1px solid #eee;
+}
+.title-solve{
+	width: 90px;
+	font-size: 20px;
+	color: #00a971;
+	margin: 20px auto 20px;
+}
+.title-solve:after{
+	content: "";
+	display: inline-block;
+	background: #00a971;
+	width: 30px;
+	height: 2px;
+	margin-left: 25px;
+}
+.content-box .title{
+	font-size: 22px;
+	padding-left: 20px; 
+	padding-bottom: 10px;
+	position: relative;
+	border-bottom: 1px solid #e1e1e1;
+}
+.img{
+	width: 100%;
+}
+.tit-span{
+	font-size: 22px;
+	display: inline-block;
+	font-weight: 400;
+	margin-bottom: 20px;
+	transition: 0.5s;
+}
+.tit-span:hover{
+	color: #00a971;
+}
+.con-box{
+	margin-top: 20px;
+}
+.con-box .p{
+	color: #888;
+}
+.time-month{
+	font-size: 22px;
+	font-weight: 300;
+	color: #888;
+}
+.timer{
+	font-style: normal;
+	font-size: 14px;
+}
+.more-col{
+	margin-top: 50px;
+	height: 120px;
+}
+
+.more-span{
+	overflow: hidden; 
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+.more-span i{
+	font-style: normal;
+}
+.understand{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block; 
+	position: relative;
+}
+
+.more{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block; 
+	background-color: #00a971;
+	color: #fff;
+	opacity: 1;
+	position: relative;
+}
+@media (max-width: 996px){
+	.more-col{
+		width: 120px;
+	}
+}
+
+@media (max-width: 768px){
+	.more-col{
+		width: 150px;
+		margin-top: 10px;
+	}
+}
+.row-under{
+	margin-bottom: 50px;
+	padding-top: 30px;
+}
+.row-under+.row-under{
+	border-top: 1px solid #ccc;
+}
